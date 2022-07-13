@@ -15,4 +15,5 @@ O quinto módulo,"saida", basicamente retorna se você é ou não um macaco com 
 O sexto módulo,"main", basicamente gerencia o tamanho das matrizes principais do programa, incialize minhas funções e só.
 
 ----------------------------------------------IMPORTANTE----------------------------------------------------------------
+
 Existem comentários onde você professor pode substituir o endereço do arquivo.txt que eu usei para rodar o programa.
