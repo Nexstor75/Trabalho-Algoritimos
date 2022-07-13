@@ -9,7 +9,7 @@ int tamanho(){
     FILE *arquivo;
     double cont=1,raiz;
     char c;
-    arquivo = fopen("D:\\Arquivos Gerais\\Desktop\\C\\Programacimeos\\dnahumano.txt","r");
+    arquivo = fopen("D:\\Arquivos Gerais\\Desktop\\C\\Programacimeos\\dnahumano.txt","r"); // colocar o endereço aqui do .txt
     while(c=fgetc(arquivo)!=EOF){
         cont ++;
     }
@@ -21,7 +21,7 @@ int tamanho(){
 void armazena(int tam,char mat[tam][tam]){
     FILE *arquivo;
     int i,i2;
-    arquivo = fopen("D:\\Arquivos Gerais\\Desktop\\C\\Programacimeos\\dnasimeo.txt","r");
+    arquivo = fopen("D:\\Arquivos Gerais\\Desktop\\C\\Programacimeos\\dnasimeo.txt","r"); // colocar o endereço aqui do .txt
     char *string,c;
     string = &mat[0][0];
     printf("\n ------ \n");
@@ -97,7 +97,7 @@ int resolve(int tam, int mat2[tam][tam]){
 }
 void saida(int x){
     if (x==1){
-        printf("voce e mamaco");
+        printf("voce eh macaco");
     }else{
         printf("voce eh humano");
     }
